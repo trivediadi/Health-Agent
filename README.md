@@ -2,27 +2,6 @@
 
 AI Agent to analyze blood reports and provide detailed health insights.
 
-<p align="center">
-  <a href="https://github.com/harshhh28/hia/issues"><img src="https://img.shields.io/github/issues/harshhh28/hia"></a> 
-  <a href="https://github.com/harshhh28/hia/stargazers"><img src="https://img.shields.io/github/stars/harshhh28/hia"></a>
-  <a href="https://github.com/harshhh28/hia/network/members"><img src="https://img.shields.io/github/forks/harshhh28/hia"></a>
-  <a href="https://github.com/harshhh28/hia/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg">
-  </a>
-</p>
-
-<p align="center">
-  <a href="#-features">Features</a> |
-  <a href="#%EF%B8%8F-tech-stack">Tech Stack</a> |
-  <a href="#-installation">Installation</a> |
-  <a href="#-contributing">Contributing</a> |
-  <a href="#%EF%B8%8F-author">Author</a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/harshhh28/hia"><img src="https://raw.githubusercontent.com/harshhh28/hia/main/public/HIA_demo.gif" alt="Usage Demo"></a>
-</p>
-
 ## 🌟 Features
 
 - Intelligent agent-based architecture with multi-model cascade system
@@ -61,8 +40,8 @@ AI Agent to analyze blood reports and provide detailed health insights.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/harshhh28/hia.git
-cd hia
+git clone https://github.com/trivediadi/Health-Agent.git
+cd health-agent
 ```
 
 2. Install dependencies:
@@ -83,9 +62,8 @@ GROQ_API_KEY = "your-groq-api-key"
 
 The application requires the following tables in your Supabase database:
 
-![database schema](https://raw.githubusercontent.com/harshhh28/hia/main/public/db/schema.png)
 
-You can use the SQL script provided at `public/db/script.sql` <a href="https://www.github.com/harshhh28/hia/blob/main/public/db/script.sql">[link]</a> to set up the required database schema.
+You can use the SQL script provided at `public/db/script.sql` to set up the required database schema.
 
 (PS: You can turn off the email confimation on signup in Supabase settings -> signup -> email)
 
@@ -124,26 +102,9 @@ hia/
 │       └── pdf_extractor.py   # PDF processing
 ```
 
-## 👥 Contributing
 
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on how to submit pull requests, the development workflow, coding standards, and more.
-
-We appreciate all contributions, from reporting bugs and improving documentation to implementing new features.
-
-## 👨‍💻 Contributors
-
-Thanks to all the amazing contributors who have helped improve this project!
-
-| Avatar | Name | GitHub | Role | Contributions |
-|--------|------|--------|------|---------------|
-| <img src="https://github.com/harshhh28.png" width="50px" height="50px" alt="harshhh28"/> | Harsh Gajjar | [harshhh28](https://github.com/harshhh28) | Project Creator & Maintainer | Core implementation, Documentation |
-
-<!-- To future contributors: Your profile will be added here when your PR is merged! -->
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙋‍♂️ Author
-
-Created by [Harsh Gajjar](https://harshgajjar.vercel.app)
